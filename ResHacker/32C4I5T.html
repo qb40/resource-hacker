@@ -1,0 +1,416 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Personal Edition 7.9.0.612">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Commandline</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="Commandline,Script,Scripting">
+
+
+
+
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Commandline">
+  <meta name="twitter:description" content="">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Commandline" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="" />
+  <meta property="og:site_name" content="Title of this help project" />
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+    </button>
+    <h1>Title of this help project</h1>
+
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close">
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+
+
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="xtoc.json"
+            data-openlvl="1"
+        >
+
+        </div>
+      </div>  <!-- /contents-->
+
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="xkeywords.json"
+            data-openlvl="1"
+        >
+
+        </div>
+      </div>  <!-- /index-->
+
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid"
+		  data-hnd-id="32C4I5T"
+		  data-hnd-context="3"
+		  data-hnd-title="Commandline"
+		>
+
+                <div class="navigation">
+                    <ol class="breadcrumb">
+
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="32C4I5Y.html" title="Overview" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="32C4I6Y.html" title="History" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div>
+
+
+            <a id="main-content"></a>
+
+            <h2>Commandline</h2>
+
+            <div class="main-content">
+
+<p class="rvps3"><span class="rvts10">Version 3.4</span></p>
+<p class="rvps3"><span class="rvts6">©1999-2003 Angus Johnson</span></p>
+<p class="rvps3"><span class="rvts11">http://www.users.on.net/johnson/resourcehacker/</span><span class="rvts12">!EF(`http://www.users.on.net/johnson/resourcehacker',`',0,)</span><span class="rvts6">.</span></p>
+<p class="rvps3"><span class="rvts6">email: </span><span class="rvts11">angusj@MyRealBox.com</span><span class="rvts12">!EF(`mailto:angusj@MyRealBox.com?subject=Resource Hacker',`',0,)</span><span class="rvts6">.</span></p>
+<p class="rvps3"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts14"><br/></span></p>
+<p class="rvps2"><span class="rvts16">Command Line Scripting:</span></p>
+<p class="rvps2"><span class="rvts14"><br/></span></p>
+<p class="rvps2"><span class="rvts14">All the functionality of the Resource Hacker™ GUI (apart from viewing resources) can be accessed from the command line without having to open Resource Hacker™. Command line scripting can remove the drudgery entailed with repetitive Resource Hacker™ tasks.</span></p>
+<p class="rvps2"><span class="rvts14"><br/></span></p>
+<p class="rvps2"><span class="rvts14">Command line scripts have 2 general forms:</span></p>
+<p class="rvps2"><span class="rvts14"><br/></span></p>
+<p class="rvps2"><span class="rvts14">1. Single commands:</span></p>
+<p class="rvps4"><span class="rvts14"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts14">ResHacker.exe </span><span class="rvts23">command</span><span class="rvts14"> </span><span class="rvts23">command_parameters</span></p>
+<p class="rvps4"><span class="rvts14">2. Multiple commands:</span></p>
+<p class="rvps4"><span class="rvts14"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts14">ResHacker.exe </span><span class="rvts23">-</span><span class="rvts14">script </span><span class="rvts23">scriptfile</span></p>
+<p class="rvps4"><span class="rvts14"><br/></span></p>
+<p class="rvps4"><span class="rvts14"><br/></span></p>
+<p class="rvps4"><span class="rvts16">Single Commands:</span></p>
+<p class="rvps4"><span class="rvts14"><br/></span></p>
+<p class="rvps4"><span class="rvts23">command</span><span class="rvts14"> and </span><span class="rvts23">command_parameters</span><span class="rvts14">:</span></p>
+<p class="rvps4"><span class="rvts32">&nbsp; &nbsp;-add &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ExeFile, SaveAsFile, ResourceFile, ResourceMask</span></p>
+<p class="rvps4"><span class="rvts32">&nbsp; &nbsp;-addskip &nbsp; &nbsp; &nbsp; ExeFile, SaveAsFile, ResourceFile, ResourceMask</span></p>
+<p class="rvps4"><span class="rvts32">&nbsp; &nbsp;-addoverwrite &nbsp;ExeFile, SaveAsFile, ResourceFile, ResourceMask</span></p>
+<p class="rvps4"><span class="rvts32">&nbsp; &nbsp;-modify &nbsp; &nbsp; &nbsp; &nbsp;ExeFile, SaveAsFile, ResourceFile, ResourceMask</span></p>
+<p class="rvps4"><span class="rvts32">&nbsp; &nbsp;-extract &nbsp; &nbsp; &nbsp; ExeFile, ResourceFile, ResourceMask</span></p>
+<p class="rvps4"><span class="rvts32">&nbsp; &nbsp;-delete &nbsp; &nbsp; &nbsp; &nbsp;ExeFile, SaveAsFile, ResourceMask</span></p>
+<p class="rvps4"><span class="rvts33"><br/></span></p>
+<p class="rvps4"><span class="rvts14">Each command parameter must be separated by a comma, but no comma is expected before the first parameter.</span></p>
+<p class="rvps4"><span class="rvts22"><br/></span></p>
+<p class="rvps4"><span class="rvts14">If paths are not included with filenames, then the operating system</span><span class="rvts17">’</span><span class="rvts14">s current folder is presumed to contain the named file. It is generally good practice, though not required here, to enclose filenames containing spaces within double quotes.</span></p>
+<p class="rvps4"><span class="rvts22"><br/></span></p>
+<p class="rvps4"><span class="rvts14">The ResourceMask enables a command to be performed on either single or multiple resource items and takes the form </span><span class="rvts23">ResType,ResName,ResLang</span><span class="rvts14">. If </span><span class="rvts23">ResType</span><span class="rvts14"> is a predefined type, then either its number or identifier can be used </span><span class="rvts17">—</span><span class="rvts14">e.g. the ResourceMask </span><span class="rvts34">dialog,128,0</span><span class="rvts14"> is identical to </span><span class="rvts34">5,128,0</span><span class="rvts23">.</span><span class="rvts14"> Any or all of the ResourceMask items can be omitted </span><span class="rvts17">—</span><span class="rvts14">e.g. </span><span class="rvts34">dialog,,</span><span class="rvts14"> indicates that all dialogs are to be applied to the command irrespective of name or language, and</span><span class="rvts23"> </span><span class="rvts34">,,1049</span><span class="rvts14"> indicates that all resources with Russian (1049) as the languageID will be applied to the command. An empty ResourceMask </span><span class="rvts34">,,</span><span class="rvts23"> </span><span class="rvts14">indicates that the command will be applied to </span><span class="rvts23">every </span><span class="rvts14">resource irrespective of type, name or language.</span></p>
+<p class="rvps4"><span class="rvts22"><br/></span></p>
+<p class="rvps4"><span class="rvts14">When adding or modifying items, the ResourceFile can be a RES file for any item type, a BMP file for BITMAP types, a CUR file for CURSORGROUP types, an ICO file for ICONGROUP types, and any file type for RCDATA and user defined resource types.</span></p>
+<p class="rvps4"><span class="rvts22"><br/></span></p>
+<p class="rvps4"><span class="rvts14">When adding and modifying resources from files other than RES files then both </span><span class="rvts23">ResType </span><span class="rvts14">and </span><span class="rvts23">ResName </span><span class="rvts14">must be specified in the ResourceMask. If </span><span class="rvts23">ResLang </span><span class="rvts14">is omitted then the command applies to the first language item with matching type and name, otherwise, if no matching item exists then language neutral (0) is assumed.</span></p>
+<p class="rvps4"><span class="rvts22"><br/></span></p>
+<p class="rvps4"><span class="rvts14">When extracting resources, and more than one item is implied by the ResourceMask, then the specified ResourceFile must be either a RES file or an RC file. When binary image resources are extracted to RC files, each image is also created as a separate binary (ICO, CUR, BMP, GIF, BIN) file. See the example below.</span></p>
+<p class="rvps4"><span class="rvts22"><br/></span></p>
+<p class="rvps4"><span class="rvts14">ICON and CURSOR resources </span><span class="rvts23">cannot</span><span class="rvts14"> be manipulated directly but are added, deleted, modified and extracted by using their respective ICONGROUP or CURSORGROUP. ICON and CURSOR can still be used but Resource Hacker™ will assume ICONGROUP or CURSORGROUP was intended.</span></p>
+<p class="rvps4"><span class="rvts22"><br/></span></p>
+<p class="rvps4"><span class="rvts14">Borland</span><span class="rvts17">’</span><span class="rvts14">s DFM files can also be added irrespective of whether the file is in binary or text format. However, they will always be extracted in text format (To convert text-formatted dfm files to binary format, use Borland</span><span class="rvts17">’</span><span class="rvts14">s utility Convert.exe).</span></p>
+<p class="rvps4"><span class="rvts22"><br/></span></p>
+<p class="rvps4"><span class="rvts14">All actions or errors are logged to </span><span class="rvts14">“</span><span class="rvts14">ResHacker.log</span><span class="rvts14">”</span><span class="rvts14">.</span></p>
+<p class="rvps4"><span class="rvts22"><br/></span></p>
+<p class="rvps4"><span class="rvts35">NB: If a script does not produce the desired results then check the log</span><span class="rvts36">!</span></p>
+<p class="rvps4"><span class="rvts14"><br/></span></p>
+<p class="rvps4"><span class="rvts14">Examples: (File paths have been omitted for clarity)</span></p>
+<p class="rvps4"><span class="rvts22"><br/></span></p>
+<p class="rvps4"><span class="rvts14">To add or update dialog name:maindlg lang:0 in MyProg.exe from UpdDlg.res</span></p>
+<p class="rvps4"><span class="rvts37">ResHacker.exe -addoverwrite MyProg.exe, MyProgNew.exe, UpdDlg.res, dialog,maindlg,0</span></p>
+<p class="rvps4"><span class="rvts22"><br/></span></p>
+<p class="rvps4"><span class="rvts14">To add or update bitmap name:128 in MyProg.exe from NewImage.bmp</span></p>
+<p class="rvps4"><span class="rvts37">ResHacker.exe -addoverwrite MyProg.exe, MyProgNew.exe, NewImage.bmp , bitmap,128,</span></p>
+<p class="rvps4"><span class="rvts22"><br/></span></p>
+<p class="rvps4"><span class="rvts14">To add or update all bitmaps in MyProg.exe from Images.res</span></p>
+<p class="rvps4"><span class="rvts37">ResHacker.exe -addoverwrite MyProg.exe, MyProgNew.exe, Images.res, bitmap,,</span></p>
+<p class="rvps4"><span class="rvts22"><br/></span></p>
+<p class="rvps4"><span class="rvts14">To add a </span><span class="rvts14">“</span><span class="rvts14">user-defined</span><span class="rvts14">”</span><span class="rvts14"> binary resource (README,1,0) to MyProg.exe from ReadMe.html</span></p>
+<p class="rvps4"><span class="rvts37">ResHacker.exe -addoverwrite MyProg.exe, MyProgNew.exe, ReadMe.html, readme,1,0</span></p>
+<p class="rvps4"><span class="rvts22"><br/></span></p>
+<p class="rvps4"><span class="rvts14">To add all items in Images.res to MyProg.exe (but fail if any item already exists)</span></p>
+<p class="rvps4"><span class="rvts37">ResHacker.exe -add MyProg.exe, MyProgNew.exe, Images.res ,,,</span></p>
+<p class="rvps4"><span class="rvts22"><br/></span></p>
+<p class="rvps4"><span class="rvts14">To add all items in Images.res to MyProg.exe (skipping any existing items)</span></p>
+<p class="rvps4"><span class="rvts37">ResHacker.exe -addskip MyProg.exe, MyProgNew.exe, Images.res ,,,</span></p>
+<p class="rvps4"><span class="rvts22"><br/></span></p>
+<p class="rvps4"><span class="rvts14">To modify all items in MyProg.exe with the items in Images.res (ignoring any items in Images.res which do not exist in MyProg.exe)</span></p>
+<p class="rvps4"><span class="rvts37">ResHacker.exe -modify MyProg.exe, MyProgNew.exe, Images.res , , ,</span></p>
+<p class="rvps4"><span class="rvts22"><br/></span></p>
+<p class="rvps4"><span class="rvts14">To extract all icons from MyProg.exe to MyProgIcons.rc (creating MyProgIcons.rc, Icon_1.ico, Icon_2.ico , Icon_3.ico etc...)</span></p>
+<p class="rvps4"><span class="rvts37">ResHacker.exe -extract MyProg.exe, MyProgIcons.rc, icongroup,,</span></p>
+<p class="rvps4"><span class="rvts22"><br/></span></p>
+<p class="rvps4"><span class="rvts14">To delete GIF name:128 from MyProg.exe</span></p>
+<p class="rvps4"><span class="rvts37">ResHacker.exe -delete MyProg.exe, MyProgNew.exe, gif,128,</span></p>
+<p class="rvps4"><span class="rvts22"><br/></span></p>
+<p class="rvps4"><span class="rvts14"><br/></span></p>
+<p class="rvps4"><span class="rvts16">Multiple Commands:</span></p>
+<p class="rvps4"><span class="rvts14"><br/></span></p>
+<p class="rvps4"><span class="rvts14">syntax: ResHacker.exe -script </span><span class="rvts23">ScriptFile</span></p>
+<p class="rvps4"><span class="rvts23">ScriptFile</span><span class="rvts14"> is a text file with the following layout:</span></p>
+<p class="rvps4"><span class="rvts14"><br/></span></p>
+<p class="rvps4"><span class="rvts37">&nbsp;//comments are preceded by double slashes</span></p>
+<p class="rvps4"><span class="rvts37">&nbsp;[FILENAMES]</span></p>
+<p class="rvps4"><span class="rvts37">&nbsp;Exe=</span></p>
+<p class="rvps4"><span class="rvts37">&nbsp;SaveAs=</span></p>
+<p class="rvps4"><span class="rvts37">&nbsp;Log=</span></p>
+<p class="rvps4"><span class="rvts37"><br/></span></p>
+<p class="rvps4"><span class="rvts37">&nbsp;[COMMANDS]</span></p>
+<p class="rvps4"><span class="rvts38">&nbsp;-add &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ResourceSrc, ResourceMask</span></p>
+<p class="rvps4"><span class="rvts38">&nbsp;-addskip &nbsp; &nbsp; &nbsp;ResourceSrc, ResourceMask</span></p>
+<p class="rvps4"><span class="rvts38">&nbsp;-addoverwrite ResourceSrc, ResourceMask</span></p>
+<p class="rvps4"><span class="rvts38">&nbsp;-addoverwrite ResourceSrc, ResourceMask</span></p>
+<p class="rvps4"><span class="rvts38">&nbsp;-modify &nbsp; &nbsp; &nbsp; ResourceSrc, ResourceMask</span></p>
+<p class="rvps4"><span class="rvts38">&nbsp;-extract &nbsp; &nbsp; &nbsp;ResourceTgt, ResourceMask</span></p>
+<p class="rvps4"><span class="rvts38">&nbsp;-delete &nbsp; &nbsp; &nbsp; ResourceMask</span></p>
+<p class="rvps4"><span class="rvts14"><br/></span></p>
+<p class="rvps4"><span class="rvts14">If Log is omitted then the default log </span><span class="rvts17">—</span><span class="rvts14">ResHacker.log</span><span class="rvts17">—</span><span class="rvts14"> will be used.</span></p>
+<p class="rvps4"><span class="rvts35">NB: If a script does not produce the desired results then check the log</span><span class="rvts36">!</span></p>
+<p class="rvps4"><span class="rvts14"><br/></span></p>
+<p class="rvps4"><span class="rvts14">Examples:</span></p>
+<p class="rvps4"><span class="rvts31"><br/></span></p>
+<p class="rvps4"><span class="rvts21">rh_script_myprog_rus.txt</span><span class="rvts14"> -</span></p>
+<p class="rvps4"><span class="rvts22"><br/></span></p>
+<p class="rvps4"><span class="rvts37">&nbsp;//This script deletes all Language Neutral (0)</span></p>
+<p class="rvps4"><span class="rvts37">&nbsp;//string-table, menu and dialog resource items</span></p>
+<p class="rvps4"><span class="rvts37">&nbsp;//in MyProg.exe before replacing them</span></p>
+<p class="rvps4"><span class="rvts37">&nbsp;//with Russian (1049) items...</span></p>
+<p class="rvps4"><span class="rvts37"><br/></span></p>
+<p class="rvps4"><span class="rvts37">&nbsp;[FILENAMES]</span></p>
+<p class="rvps4"><span class="rvts37">&nbsp;Exe= &nbsp; &nbsp;MyProg.exe</span></p>
+<p class="rvps4"><span class="rvts37">&nbsp;SaveAs= MyProg_Rus.exe</span></p>
+<p class="rvps4"><span class="rvts37">&nbsp;Log= &nbsp; &nbsp;MyProg_Rus.log</span></p>
+<p class="rvps4"><span class="rvts37"><br/></span></p>
+<p class="rvps4"><span class="rvts37">&nbsp;[COMMANDS]</span></p>
+<p class="rvps4"><span class="rvts37">&nbsp;-delete &nbsp;MENU,,0</span></p>
+<p class="rvps4"><span class="rvts37">&nbsp;-delete &nbsp;DIALOG,,0</span></p>
+<p class="rvps4"><span class="rvts37">&nbsp;-delete &nbsp;STRINGTABLE,,0</span></p>
+<p class="rvps4"><span class="rvts37">&nbsp;-add &nbsp; &nbsp; MyProg_Rus.res, MENU,,1049</span></p>
+<p class="rvps4"><span class="rvts37">&nbsp;-add &nbsp; &nbsp; MyProg_Rus.res, DIALOG,,1049</span></p>
+<p class="rvps4"><span class="rvts37">&nbsp;-add &nbsp; &nbsp; MyProg_Rus.res, STRINGTABLE,,1049</span></p>
+<p class="rvps4"><span class="rvts37"><br/></span></p>
+<p class="rvps4"><span class="rvts31"><br/></span></p>
+<p class="rvps4"><span class="rvts21">rh_script_myprog_upd_images.txt</span><span class="rvts14"> -</span></p>
+<p class="rvps4"><span class="rvts22"><br/></span></p>
+<p class="rvps4"><span class="rvts37">&nbsp;//This script updates 2 bitmaps and an</span></p>
+<p class="rvps4"><span class="rvts37">&nbsp;//icon in MyProg.exe ...</span></p>
+<p class="rvps4"><span class="rvts37"><br/></span></p>
+<p class="rvps4"><span class="rvts37">&nbsp;[FILENAMES]</span></p>
+<p class="rvps4"><span class="rvts37">&nbsp;Exe= &nbsp; &nbsp;MyProg.exe</span></p>
+<p class="rvps4"><span class="rvts37">&nbsp;SaveAs= MyProg_Updated.exe</span></p>
+<p class="rvps4"><span class="rvts37"><br/></span></p>
+<p class="rvps4"><span class="rvts37">&nbsp;[COMMANDS]</span></p>
+<p class="rvps4"><span class="rvts37">&nbsp;-addoverwrite Bitmap128.bmp, BITMAP,128,</span></p>
+<p class="rvps4"><span class="rvts37">&nbsp;-addoverwrite Bitmap129.bmp, BITMAP,129,0</span></p>
+<p class="rvps4"><span class="rvts37">&nbsp;-addoverwrite MainIcon.ico, ICONGROUP,MAINICON,0</span></p>
+<p class="rvps4"><span class="rvts37"><br/></span></p>
+<p class="rvps4"><span class="rvts37"><br/></span></p>
+<p class="rvps4"><span class="rvts21">rh_script_myprog_upd_all.txt</span><span class="rvts14"> -</span></p>
+<p class="rvps4"><span class="rvts22"><br/></span></p>
+<p class="rvps4"><span class="rvts37">&nbsp;//This script replaces all resources</span></p>
+<p class="rvps4"><span class="rvts37">&nbsp;//in MyProg.exe with all the resources</span></p>
+<p class="rvps4"><span class="rvts37">&nbsp;//in MyProgNew.res</span></p>
+<p class="rvps4"><span class="rvts37"><br/></span></p>
+<p class="rvps4"><span class="rvts37">&nbsp;[FILENAMES]</span></p>
+<p class="rvps4"><span class="rvts37">&nbsp;Exe= &nbsp; &nbsp;MyProg.exe</span></p>
+<p class="rvps4"><span class="rvts37">&nbsp;SaveAs= MyProg_Updated.exe</span></p>
+<p class="rvps4"><span class="rvts37"><br/></span></p>
+<p class="rvps4"><span class="rvts37">&nbsp;[COMMANDS]</span></p>
+<p class="rvps4"><span class="rvts37">&nbsp;-delete &nbsp;,,, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;//delete </span><span class="rvts38">all</span><span class="rvts37"> resources before...</span></p>
+<p class="rvps4"><span class="rvts37">&nbsp;-add MyProgNew.res ,,, &nbsp;//adding all the new resources</span></p>
+<p class="rvps4"><span class="rvts37"><br/></span></p>
+<p class="rvps4"><span class="rvts39"></span><span class="rvts6"></span></p>
+<p class="rvps7" style="clear: both;"><span class="rvts49">Created with the Personal Edition of HelpNDoc: </span><a class="rvts50" href="https://www.helpndoc.com/help-authoring-tool">Free help authoring environment</a></p>
+
+            </div>
+
+            <div id="topic_footer"><div id="topic_footer_content">Copyright &copy; &lt;Dates&gt; by &lt;Authors&gt;. All Rights Reserved.</div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 350px"></div>
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="xtranslations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>

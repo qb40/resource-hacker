@@ -1,0 +1,326 @@
+/* ========== Text Styles ========== */
+hr { color: #000000}
+.main-content, .main-content table span.rvts0 /* Normal text */
+{
+ font-size: 10pt;
+ font-family: 'Arial', 'Helvetica', sans-serif;
+ font-style: normal;
+ font-weight: normal;
+ color: #000000;
+ text-decoration: none;
+}
+span.rvts1 /* Heading */
+{
+ font-weight: bold;
+ color: #0000ff;
+}
+span.rvts2 /* Subheading */
+{
+ font-weight: bold;
+ color: #000080;
+}
+span.rvts3 /* Keywords */
+{
+ font-style: italic;
+ color: #800000;
+}
+a.rvts4, span.rvts4 /* Jump 1 */
+{
+ color: #008000;
+ text-decoration: underline;
+}
+a.rvts5, span.rvts5 /* Jump 2 */
+{
+ color: #008000;
+ text-decoration: underline;
+}
+span.rvts6
+{
+}
+span.rvts7
+{
+ font-size: 12pt;
+ vertical-align: super;
+}
+span.rvts8
+{
+ font-size: 12pt;
+}
+span.rvts9
+{
+ font-weight: bold;
+}
+span.rvts10
+{
+ font-size: 8pt;
+}
+span.rvts11
+{
+ border-bottom: double;
+}
+span.rvts12
+{
+ display: none;
+}
+span.rvts13
+{
+ font-size: 4pt;
+}
+span.rvts14
+{
+ font-size: 12pt;
+ color: #000000;
+}
+span.rvts15
+{
+ font-size: 12pt;
+ font-weight: bold;
+ color: #000000;
+ text-decoration: underline;
+}
+span.rvts16
+{
+ font-size: 12pt;
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts17
+{
+ font-size: 12pt;
+ font-family: 'Times New Roman Baltic';
+ color: #000000;
+}
+span.rvts18
+{
+ font-size: 12pt;
+ color: #000000;
+ vertical-align: super;
+}
+span.rvts19
+{
+ font-size: 12pt;
+ color: #800000;
+}
+span.rvts20
+{
+ font-size: 12pt;
+ color: #800000;
+ vertical-align: super;
+}
+span.rvts21
+{
+ font-size: 12pt;
+ font-family: 'Courier New', 'Courier', monospace;
+ color: #000000;
+}
+span.rvts22
+{
+ font-size: 4pt;
+ color: #000000;
+}
+span.rvts23
+{
+ font-size: 12pt;
+ font-style: italic;
+ color: #000000;
+}
+span.rvts24
+{
+ font-size: 12pt;
+ font-weight: bold;
+ color: #000080;
+}
+span.rvts25
+{
+ font-size: 12pt;
+ font-family: 'Courier New', 'Courier', monospace;
+ font-style: italic;
+ color: #000000;
+}
+span.rvts26
+{
+ font-size: 11pt;
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts27
+{
+ font-size: 12pt;
+ font-family: 'Courier New', 'Courier', monospace;
+ color: #800000;
+}
+span.rvts28
+{
+ font-size: 12pt;
+ font-family: 'Times New Roman Baltic';
+ color: #800000;
+}
+span.rvts29
+{
+ font-size: 9pt;
+ font-family: 'Courier New', 'Courier', monospace;
+ color: #0000ff;
+}
+span.rvts30
+{
+ font-size: 9pt;
+ color: #0000ff;
+}
+span.rvts31
+{
+ font-size: 8pt;
+ color: #000000;
+}
+span.rvts32
+{
+ font-family: 'Courier New', 'Courier', monospace;
+ color: #000000;
+}
+span.rvts33
+{
+ color: #000000;
+}
+span.rvts34
+{
+ font-size: 12pt;
+ font-style: italic;
+ color: #800000;
+}
+span.rvts35
+{
+ font-size: 11pt;
+ font-weight: bold;
+ color: #800000;
+}
+span.rvts36
+{
+ font-size: 11pt;
+ color: #800000;
+}
+span.rvts37
+{
+ font-family: 'Courier New', 'Courier', monospace;
+ color: #000080;
+}
+span.rvts38
+{
+ font-family: 'Courier New', 'Courier', monospace;
+ font-style: italic;
+ color: #000080;
+}
+span.rvts39
+{
+ font-family: 'Courier New', 'Courier', monospace;
+ color: #000080;
+ vertical-align: super;
+}
+span.rvts40
+{
+ font-style: italic;
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts41
+{
+ font-weight: bold;
+ color: #000000;
+}
+a.rvts42, span.rvts42
+{
+ font-size: 12pt;
+ color: #000000;
+ text-decoration: none;
+ border-bottom: double;
+}
+span.rvts43
+{
+ font-size: 12pt;
+ display: none;
+ color: #000000;
+}
+span.rvts44
+{
+ font-size: 12pt;
+ font-style: italic;
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts45
+{
+ font-size: 12pt;
+ font-family: 'Times New Roman Baltic';
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts46
+{
+ font-family: 'Courier New', 'Courier', monospace;
+ font-weight: bold;
+ color: #000080;
+}
+span.rvts47
+{
+ font-family: 'Courier New', 'Courier', monospace;
+ font-weight: bold;
+ border-bottom: double;
+}
+span.rvts48
+{
+ display: none;
+ font-family: 'Courier New', 'Courier', monospace;
+ font-weight: bold;
+}
+span.rvts49 /* Font Style */
+{
+ font-family: 'Tahoma', 'Geneva', sans-serif;
+ font-style: italic;
+ color: #c0c0c0;
+}
+a.rvts50, span.rvts50 /* Font Style */
+{
+ font-family: 'Tahoma', 'Geneva', sans-serif;
+ font-style: italic;
+ color: #6666ff;
+ text-decoration: underline;
+}
+/* ========== Para Styles ========== */
+p,ul,ol /* Paragraph Style */
+{
+ text-align: left;
+ text-indent: 0px;
+ padding: 0px 0px 0px 0px;
+ margin: 0px 0px 0px 0px;
+}
+.rvps1 /* Centered */
+{
+ text-align: center;
+}
+.rvps2
+{
+}
+.rvps3
+{
+ page-break-after: avoid;
+}
+.rvps4
+{
+}
+.rvps5
+{
+ margin: 0px 0px 0px 38px;
+}
+.rvps6
+{
+ margin: 0px 0px 0px 48px;
+}
+.rvps7 /* Paragraph Style */
+{
+ text-align: center;
+ border-color: #c0c0c0;
+ border-style: solid;
+ border-width: 1px;
+ border-right: none;
+ border-left: none;
+ padding: 2px 0px 2px 0px;
+ margin: 7px 0px 7px 0px;
+}
